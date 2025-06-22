@@ -2,10 +2,11 @@ for i in range(1, 11):
     print(i)
 
 
-for num in range(1,5):
-    print(num)
+num = int(input("შეიყვანე რიცხვი"))
+sum = num * (num + 1) // 2
+print(sum)
 
-for i in range(2, 21, 2):
+for i in range(0, 21, 2):
     print(i)
 
 

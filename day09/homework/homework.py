@@ -14,12 +14,14 @@ while i <= 5:
 #while loop for loop-ისგან იმით განსხვავდება რომ while loop-ს შეუძლია უსასრულოდ გამოიტანოს სანამ არ გავაჩერებთ
 
 
-age = 20
+age = 12
 count = 0
 while count < age:
     print("გიორგი შევლიაკოვი")
     count += 1
 
+for i in range (12):
+    print("გიორგი შევლიაკოვი")
 
 
 
