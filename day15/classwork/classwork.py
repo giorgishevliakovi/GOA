@@ -1,20 +1,23 @@
 month = int(input("შეიყვანე შენი დაბადების დღის თვე"))
 
-if month >= 1 and month <= 3:
+if month == 1 or month == 3 or month == 12:
     print("ზამთარი")
 
-elif month >= 4 and month <= 6:
+elif month >= 3 and month <= 5:
     print("გაზაფხული")
 
-elif month >= 7 and month <= 9:
+elif month >= 6 and month <= 8:
     print("ზაფხული")
 
-elif month >= 10 and month <= 12:
+elif month >= 9 and month <= 11:
     print("შემოდგომა")
 
+else:
+    print("არასწორი რიცხვია.")
 
 
-ricxvi = int(input("შეიყვანე რიცხვი 0-დან 10-მდე"))
+
+ricxvi = float(input("შეიყვანე რიცხვი 0-დან 10-მდე"))
 
 if ricxvi > 0:
     print("დადებითია")
@@ -47,5 +50,8 @@ ricxvi = int(input("შეიყვანე რიცხვი 1 დან 10 �
 if ricxvi > 10:
     print("მეტია")
 
-else:
+elif ricxvi <10:
     print("ნაკლებია")
+
+else:
+    print("უდრის 10")
